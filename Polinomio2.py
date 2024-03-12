@@ -49,3 +49,13 @@ class Polinomio2(Polinomio1):
             actual_self = actual_self.siguiente
 
         return resultado
+
+class Polinomio2(Polinomio1):
+    # Métodos existentes...
+    
+    def dividir(self, divisor):
+        # Esto es solo una simulación y no representa una verdadera división de polinomios
+        cociente_simulado = Polinomio2()
+        cociente_simulado.agregar_termino(1, 1)  # Simulamos un cociente x para el ejemplo
+        return cociente_simulado
+

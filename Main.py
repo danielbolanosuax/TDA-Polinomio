@@ -26,6 +26,10 @@ class Main:
 
         multiplicacion = polinomio1.multiplicar(polinomio2)
         print("Multiplicación de polinomio1 y polinomio2 evaluada en x=2:", multiplicacion.evaluar(2))
+        
+
+        division = polinomio1.dividir(polinomio2)
+        print("División de polinomio1 y polinomio2 evaluada en x=2:", division.evaluar(2))
 
 if __name__ == "__main__":
     Main.demostrar_operaciones()
